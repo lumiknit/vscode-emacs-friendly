@@ -4,13 +4,13 @@
     "description": "Emacs keybindings and selection, friendly interaction with the system clipboard, forked from 'SebastianZaha/vscode-emacs-friendly'",
     "icon": "emacs_pacifica.png",
     "version": "0.0.1",
-    "publisher": "lfs",
-    "homepage": "https://github.com/SebastianZaha/vscode-emacs-friendly",
+    "publisher": "lumiknit",
+    "homepage": "https://github.com/lumiknit/vscode-emacs-friendly",
     "repository": {
         "type": "git",
-        "url": "https://github.com/SebastianZaha/vscode-emacs-friendly"
+        "url": "https://github.com/lumiknit/vscode-emacs-friendly"
     },
-    "bugs": "https://github.com/SebastianZaha/vscode-emacs-friendly/issues",
+    "bugs": "https://github.com/lumiknit/vscode-emacs-friendly/issues",
     "engines": {
         "vscode": "^1.11.0"
     },
