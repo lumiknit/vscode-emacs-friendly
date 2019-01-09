@@ -1,9 +1,9 @@
 {
-    "name": "vscode-emacs-friendly",
-    "displayName": "Emacs Friendly Keymap",
-    "description": "Emacs keybindings and selection, friendly interaction with the system clipboard.",
+    "name": "vscode-emacs-more-friendly",
+    "displayName": "Emacs More Friendly Keymap",
+    "description": "Emacs keybindings and selection, friendly interaction with the system clipboard, forked from 'SebastianZaha/vscode-emacs-friendly'",
     "icon": "emacs_pacifica.png",
-    "version": "0.8.2",
+    "version": "0.0.1",
     "publisher": "lfs",
     "homepage": "https://github.com/SebastianZaha/vscode-emacs-friendly",
     "repository": {
@@ -201,6 +201,10 @@
                 "command": "workbench.action.gotoLine"
             },
             {
+                "key": "alt+g alt+g",
+                "command": "workbench.action.gotoLine"
+            },
+            {
                 "key": "alt+g n",
                 "command": "editor.action.marker.next"
             },
@@ -249,8 +253,18 @@
                 "when": "editorFocus"
             },
             {
+                "key": "backspace",
+                "command": "emacs.backspace",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
                 "key": "ctrl+d",
-                "command": "deleteRight",
+                "command": "emacs.C-d",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "delete",
+                "command": "emacs.C-d",
                 "when": "editorTextFocus && !editorReadonly"
             },
             {

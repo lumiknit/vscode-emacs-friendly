@@ -10,6 +10,12 @@ export class Operation {
             'C-k': () => {
                 this.editor.kill();
             },
+            'C-d': () => {
+                this.editor.deleteRight();
+            },
+            'backspace': () => {
+                this.editor.delete();
+            },
             'C-w': () => {
                 this.editor.cut()
             },

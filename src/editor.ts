@@ -106,6 +106,16 @@ export class Editor {
 		return promise
 	}
 
+	delete(): void {
+		vscode.commands.executeCommand("deleteLeft")
+		vscode.commands.executeCommand("emacs.exitMarkMode")
+	}
+
+	deleteRight(): void {
+		vscode.commands.executeCommand("deleteRight")
+		vscode.commands.executeCommand("emacs.exitMarkMode")
+	}
+
 	copy(): void {
 		clip.writeSync(this.getSelectionText())
 		vscode.commands.executeCommand("emacs.exitMarkMode")

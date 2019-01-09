@@ -1,3 +1,11 @@
+# vscode-emacs-more-friendly
+
+## 0.0.1
+- Change C-d, backspace, delete to exit the mark mode
+- Add M-g M-g to jump line as M-g g
+
+# vscode-emacs-friendly
+
 ## 0.8.2 (2017-10-09)
 - Fix replaceOne shortcut to correctly only replace the currently selected match
 

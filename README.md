@@ -1,4 +1,18 @@
+# vscode-emacs-more-friendly
+
+This plugin is a fork of the vscode extension by [lfs](https://github.com/SebastianZaha/vscode-emacs-friendly).
+
+Changes:
+
+* C-d, backspace, delete to delete a character/region and exit mark mode
+* M-g M-g to jump to line as M-g g
+
+The following is the original README.md.
+
+---
+
 # vscode-emacs-friendly
+
 
 This plugin provides emacs keybindings and workflow for Visual Studio Code and is a fork of the great vscode extension by [hiro-sun](https://github.com/hiro-sun/vscode-emacs).
 
